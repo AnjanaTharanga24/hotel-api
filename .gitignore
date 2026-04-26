@@ -1,0 +1,125 @@
+# ===========================
+# Spring Boot / Java
+# ===========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===========================
+# IDE - IntelliJ IDEA
+# ===========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# IDE - Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IDE - VS Code
+.vscode/
+
+# IDE - NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===========================
+# Spring Boot Specific
+# ===========================
+# Application properties with secrets
+**/application-prod.yml
+**/application-prod.properties
+**/application-local.yml
+**/application-local.properties
+**/application-secret.yml
+**/application-secret.properties
+
+# ===========================
+# Microservices Specific
+# ===========================
+# Docker
+.docker/
+
+# Kubernetes secrets
+*-secret.yaml
+*-secret.yml
+
+# Service discovery configs with credentials
+eureka-*.properties
+
+# ===========================
+# Environment & Secrets
+# ===========================
+.env
+.env.*
+*.env
+secrets/
+**/secrets/
+**/*secret*
+**/*password*
+**/*credentials*
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+*.log.*
+spring.log
+
+# ===========================
+# OS Files
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ===========================
+# Misc
+# ===========================
+*.pid
+*.seed
+*.pid.lock
+.cache/
+tmp/
+temp/
