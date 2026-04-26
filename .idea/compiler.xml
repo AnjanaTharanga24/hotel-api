@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="room-service" />
+        <module name="eureka-server" />
         <module name="billing-service" />
         <module name="reservation-service" />
       </profile>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="billing-service" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="guest-service" options="-parameters" />
       <module name="hotel-management" options="" />
       <module name="reservation-service" options="-parameters" />
