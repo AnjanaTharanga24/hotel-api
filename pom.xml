@@ -28,10 +28,10 @@
 
     <modules>
         <module>room-service</module>
-<!--        <module>guest-service</module>-->
-<!--        <module>reservation-service</module>-->
-<!--        <module>billing-service</module>-->
-<!--        <module>api-gateway</module>-->
+        <module>guest-service</module>
+        <module>reservation-service</module>
+        <module>billing-service</module>
+        <module>api-gateway</module>
     </modules>
 
     <dependencyManagement>
